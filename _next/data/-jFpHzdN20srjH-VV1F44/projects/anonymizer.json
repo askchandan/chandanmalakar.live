@@ -1,0 +1,19 @@
+{
+  "pageProps": {
+    "post": {
+      "slug": "anonymizer",
+      "content": "\n## About\n\nAnonymizer is a web app that helps you to anonymize PII data from text, images, and documents. \nIt uses AI to detect and anonymize PII data from the input.\n\nCurrent PII Detection using [Presidio](https://microsoft.github.io/presidio/)\n\n## Tech Stack\n- React\n- Typescript\n- Presidio\n- Python\n- Tailwind CSS\n- ShadCN\n\n\n",
+      "title": "Anonymizer",
+      "description": "Web App to anonymize PII data from text, images, and documents.",
+      "date": "2025-03-05",
+      "type": "other",
+      "tags": ["Personal", "AI"],
+      "techStack": ["React", "AI", "Tailwind CSS", "ShadCN", "@framer/motion"],
+      "link": "https://uiux.amankumar.ai/anonymizer",
+      "label": "Link",
+      "image": "/content/projects/anonymizer/img.png",
+      "status": "active"
+    }
+  },
+  "__N_SSG": true
+}

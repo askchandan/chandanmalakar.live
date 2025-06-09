@@ -1,0 +1,13 @@
+{
+  "pageProps": {
+    "post": {
+      "title": "Course Generator",
+      "description": "Generate courses with AI",
+      "image": "/content/apps/course-generator.png",
+      "slug": "course-generator",
+      "tags": ["course", "generator"],
+      "componentKey": "CourseGenerator"
+    }
+  },
+  "__N_SSG": true
+}

@@ -1,0 +1,19 @@
+{
+  "pageProps": {
+    "post": {
+      "slug": "uiux-curations",
+      "content": "\n## UI/UX Curations\n\nA collection of UI/UX experiences that I have created.\n\n## Tech Stack\n- React\n- AI\n- Tailwind CSS\n- ShadCN\n- @framer/motion\n- ...\n\n\n",
+      "title": "UIUX Curations",
+      "description": "A collection of UI/UX experiences that I have created.",
+      "date": "2024-11-27",
+      "type": "other",
+      "tags": ["Personal", "AI", "UI/UX"],
+      "techStack": ["React", "AI", "Tailwind CSS", "ShadCN", "@framer/motion"],
+      "link": "https://uiux.amankumar.ai/",
+      "label": "Link",
+      "image": "/content/projects/uiux/img.png",
+      "status": "active"
+    }
+  },
+  "__N_SSG": true
+}

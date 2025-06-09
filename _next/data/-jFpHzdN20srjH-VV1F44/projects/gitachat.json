@@ -1,0 +1,19 @@
+{
+  "pageProps": {
+    "post": {
+      "slug": "gitachat",
+      "content": "\nAsk for spiritual guidance based on the timeless wisdom of the Bhagavad Gita\n\n#### Tech Stack\n\n- Next.js\n- TypeScript\n- TailwindCSS, ShadCN\n- Python\n- LLM\n\n#### Links\n\n- [Website](https://gitachat.in)\n",
+      "title": "Gitachat",
+      "description": "Chat with Gita",
+      "date": "2025-05-04",
+      "type": "other",
+      "tags": ["Personal", "AI", "LLM", "Chat"],
+      "summary": "A collaborative chat tool for developers integrated with Git workflows.",
+      "link": "https://gitachat.in",
+      "label": "Link",
+      "image": "/content/projects/gitachat/image.png",
+      "status": "active"
+    }
+  },
+  "__N_SSG": true
+}

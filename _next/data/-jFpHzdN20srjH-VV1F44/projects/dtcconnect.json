@@ -1,0 +1,19 @@
+{
+  "pageProps": {
+    "post": {
+      "slug": "dtcconnect",
+      "content": "\n### About\n\nD2C Connect is a platform designed to connect D2C brands with freelance designers. It serves as a marketplace where brands can find and hire talented designers for their projects, while designers can showcase their work and connect with potential clients.\n\n### Tech Stack\n- React\n- Typescript\n- Tailwind CSS\n- ShadCN\n\n\n",
+      "title": "DTC Connect",
+      "description": "A platform to connect D2C brands with freelance designers.",
+      "date": "2025-04-19",
+      "type": "other",
+      "tags": ["Personal", "Ecommerce"],
+      "techStack": ["React", "Tailwind CSS", "ShadCN"],
+      "link": "https://dtcconnect.io/",
+      "label": "Link",
+      "image": "/content/projects/dtcconnect/img.png",
+      "status": "active"
+    }
+  },
+  "__N_SSG": true
+}

@@ -1,0 +1,13 @@
+{
+  "pageProps": {
+    "post": {
+      "title": "Anonymizer",
+      "description": "Anonymize your data",
+      "image": "/content/apps/anonmizer.png",
+      "slug": "anonymizer",
+      "tags": ["anonymizer", "data"],
+      "componentKey": "Anonymizer"
+    }
+  },
+  "__N_SSG": true
+}

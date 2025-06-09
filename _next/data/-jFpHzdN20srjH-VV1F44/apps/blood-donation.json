@@ -1,0 +1,13 @@
+{
+  "pageProps": {
+    "post": {
+      "title": "Blood Donation Guide",
+      "description": "Get information about blood donation",
+      "image": "/content/apps/blood-donation.png",
+      "slug": "blood-donation",
+      "tags": ["blood", "donation", "guide"],
+      "componentKey": "BloodDonationGuide"
+    }
+  },
+  "__N_SSG": true
+}

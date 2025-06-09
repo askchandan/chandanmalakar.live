@@ -1,0 +1,2462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Aman Kumar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" href="/images/user.jpg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="canonical" href="https://amankumar.ai/blogs" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="og:type" content="website" />
+    <meta name="og:url" content="https://amankumar.ai" />
+    <meta name="og:image" content="/images/social.png" />
+    <meta name="og:site_name" content="Aman&#x27;s Mind Map" />
+    <meta name="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@onlyoneaman" />
+    <meta name="twitter:site" content="@onlyoneaman" />
+    <meta
+      name="twitter:title"
+      content="Aman&#x27;s Mind Map | AI Product Engineer"
+    />
+    <meta
+      name="twitter:description"
+      content="Aman&#x27;s journey in AI engineering and full-stack development. Discover innovative projects, insightful blogs, and unique perspectives on technology and life."
+    />
+    <meta
+      name="twitter:image"
+      content="https://amankumar.ai/images/social.png"
+    />
+    <title>Blogs | Aman&#x27;s Mind Map</title>
+    <meta
+      name="description"
+      content="Experimenting with LLMs, AI Engineering, Problem Solving, FullStack Development"
+    />
+    <meta
+      name="keywords"
+      content="Aman Kumar, AI Product Engineer, Problem Solver, FullStack Dev"
+    />
+    <meta property="og:title" content="Blogs | Aman&#x27;s Mind Map" />
+    <meta
+      property="og:description"
+      content="Experimenting with LLMs, AI Engineering, Problem Solving, FullStack Development"
+    />
+    <meta name="next-head-count" content="28" />
+    <link
+      rel="preload"
+      href="/_next/static/css/ff1280692d8e2373.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="/_next/static/css/ff1280692d8e2373.css"
+      data-n-g=""
+    />
+    <noscript data-n-css=""></noscript>
+    <script
+      defer=""
+      nomodule=""
+      src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
+    ></script>
+    <script
+      src="/_next/static/chunks/webpack-62c02dad1a6a4cb4.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/framework-9620da855a94eb57.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/main-68e57755bfc36cbb.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/pages/_app-57794cd866751997.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/75fc9c18-09e09483269b50d9.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/308-5ee51873bbd7a9c1.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/675-f7497838fbcdf00b.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/pages/blogs-c17dd436aa07ee12.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/-jFpHzdN20srjH-VV1F44/_buildManifest.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/-jFpHzdN20srjH-VV1F44/_ssgManifest.js"
+      defer=""
+    ></script>
+  </head>
+  <body>
+    <div id="__next">
+      <script>
+        ((e, r, s, u, d, m, l, h) => {
+          let c = document.documentElement,
+            v = ["light", "dark"];
+          function p(i) {
+            (Array.isArray(e) ? e : [e]).forEach((y) => {
+              let k = y === "class",
+                S = k && m ? d.map((f) => m[f] || f) : d;
+              k
+                ? (c.classList.remove(...S), c.classList.add(i))
+                : c.setAttribute(y, i);
+            }),
+              R(i);
+          }
+          function R(i) {
+            h && v.includes(i) && (c.style.colorScheme = i);
+          }
+          function a() {
+            return window.matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light";
+          }
+          if (u) p(u);
+          else
+            try {
+              let i = localStorage.getItem(r) || s,
+                y = l && i === "system" ? a() : i;
+              p(y);
+            } catch (i) {}
+        })(
+          "class",
+          "theme",
+          "light",
+          null,
+          ["light", "dark"],
+          null,
+          true,
+          true
+        );
+      </script>
+      <div
+        class="flex flex-col min-h-screen bg-white text-primary dark:bg-primary dark:text-oldsilver"
+      >
+        <div class="flex flex-1 flex-col justify-between ml-60">
+          <div
+            class="fixed left-0 top-0 h-screen w-60 px-4 py-12 space-y-4 overflow-y-auto bg-secondary dark:bg-slate"
+          >
+            <div class="flex items-center justify-start space-x-3 sm:mb-8 px-2">
+              <span
+                class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
+                ><span
+                  class="flex h-full w-full items-center justify-center rounded-full bg-muted"
+                  >CN</span
+                ></span
+              >
+              <div class="text-sm flex flex-col">
+                <span class="text-black dark:text-white md:text-lg">Aman</span
+                ><span
+                  ><span></span
+                  ><span
+                    style="color: inherit"
+                    class="styles-module_blinkingCursor__yugAC styles-module_blinking__9VXRT"
+                    >|</span
+                  ></span
+                >
+              </div>
+            </div>
+            <div class="space-y-1 py-3">
+              <a
+                class="flex items-center cursor-pointer rounded-md text-sm border px-3 py-2 gap-2 justify-start dark:hover:text-white hover:text-black hover:bg-gray-200 dark:hover:bg-transparent border-transparent"
+                href="/"
+                ><span
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                      d="M80 212v236a16 16 0 0 0 16 16h96V328a24 24 0 0 1 24-24h80a24 24 0 0 1 24 24v136h96a16 16 0 0 0 16-16V212"
+                    ></path>
+                    <path
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                      d="M480 256 266.89 52c-5-5.28-16.69-5.34-21.78 0L32 256m368-77V64h-48v69"
+                    ></path></svg></span
+                ><span
+                  class="
+                
+              "
+                  >Home</span
+                ></a
+              ><a
+                class="flex items-center cursor-pointer rounded-md text-sm border px-3 py-2 gap-2 justify-start dark:hover:text-white hover:text-black hover:bg-gray-200 dark:hover:bg-transparent border-transparent"
+                href="/experience"
+                ><span
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fill="none" d="M0 0h24v24H0V0z"></path>
+                    <path
+                      d="M17 7h2v2h-2zM17 11h2v2h-2zM17 15h2v2h-2zM1 11v10h6v-5h2v5h6V11L8 6l-7 5zm12 8h-2v-5H5v5H3v-7l5-3.5 5 3.5v7z"
+                    ></path>
+                    <path
+                      d="M10 3v1.97l2 1.43V5h9v14h-4v2h6V3z"
+                    ></path></svg></span
+                ><span
+                  class="
+                
+              "
+                  >Experience</span
+                ></a
+              ><a
+                class="flex items-center cursor-pointer rounded-md text-sm border px-3 py-2 gap-2 justify-start dark:hover:text-white hover:text-black hover:bg-gray-200 dark:hover:bg-transparent border-transparent"
+                href="/apps"
+                ><span
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M288 124c30.3 0 59.3 11.2 81.8 31.5 22.3 20.1 36.3 47.6 39.5 77.3l1.2 11.1c.6 5.8 5 10.5 10.7 11.5l11 2c14 2.5 27 10.4 36.7 22.1 9.8 12 15.2 26.9 15.2 42.1 0 17-6.9 34.1-18.9 46.8C453 381 437.4 388 421.1 388H90.9c-16.3 0-31.9-7-43.9-19.7s-18.9-29.7-18.9-46.8c0-14.4 4.6-28.9 13.1-40.9 8.6-12.2 20.2-20.9 33.7-25.1l10.3-3.3c5.3-1.7 9-6.6 9.1-12.2l.2-10.8c.2-11.8 5.1-23.6 13.5-32.4 8.3-8.7 18.9-13.4 29.9-13.4 5.6 0 11.1 1.1 16.3 3.2l11.1 4.5c5.7 2.3 12.2.4 15.7-4.7l6.8-9.8C210.4 143.7 248 124 288 124m0-28c-51.2 0-96.3 25.6-123.4 64.7-8.3-3.4-17.4-5.3-26.9-5.3-39.1 0-70.8 34.4-71.4 73.4C26.4 241.5 0 280.5 0 321.5 0 371.7 40.7 416 90.9 416h330.3c50.2 0 90.9-44.3 90.9-94.5 0-44.7-32.3-84.1-74.9-91.7C429 154.6 365.4 96 288 96z"
+                    ></path></svg></span
+                ><span
+                  class="
+                
+              "
+                  >Apps</span
+                ></a
+              ><a
+                class="flex items-center cursor-pointer rounded-md text-sm border px-3 py-2 gap-2 justify-start dark:hover:text-white hover:text-black hover:bg-gray-200 dark:hover:bg-transparent border-transparent"
+                href="/projects"
+                ><span
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M272 464a16 16 0 0 1-16-16.42V264.13a8 8 0 0 0-8-8H64.41a16.31 16.31 0 0 1-15.49-10.65 16 16 0 0 1 8.41-19.87l384-176.15a16 16 0 0 1 21.22 21.19l-176 384A16 16 0 0 1 272 464z"
+                    ></path></svg></span
+                ><span
+                  class="
+                
+              "
+                  >Projects</span
+                ></a
+              ><a
+                class="flex items-center cursor-pointer rounded-md text-sm border px-3 py-2 gap-2 justify-start dark:hover:text-white hover:text-black hover:bg-gray-200 dark:hover:bg-transparent dark:bg-charleston dark:text-white dark:border-[#393939] bg-primary text-white border-primary"
+                href="/blogs"
+                ><span
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                      d="M364.13 125.25 87 403l-23 45 44.99-23 277.76-277.13-22.62-22.62zm56.56-56.56-22.62 22.62 22.62 22.63 22.62-22.63a16 16 0 0 0 0-22.62h0a16 16 0 0 0-22.62 0z"
+                    ></path></svg></span
+                ><span
+                  class="
+                
+              "
+                  >Blogs</span
+                ></a
+              ><a
+                class="flex items-center cursor-pointer rounded-md text-sm border px-3 py-2 gap-2 justify-start dark:hover:text-white hover:text-black hover:bg-gray-200 dark:hover:bg-transparent border-transparent"
+                href="/about"
+                ><span
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 496 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M248 104c-53 0-96 43-96 96s43 96 96 96 96-43 96-96-43-96-96-96zm0 144c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm0-240C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-49.7 0-95.1-18.3-130.1-48.4 14.9-23 40.4-38.6 69.6-39.5 20.8 6.4 40.6 9.6 60.5 9.6s39.7-3.1 60.5-9.6c29.2 1 54.7 16.5 69.6 39.5-35 30.1-80.4 48.4-130.1 48.4zm162.7-84.1c-24.4-31.4-62.1-51.9-105.1-51.9-10.2 0-26 9.6-57.6 9.6-31.5 0-47.4-9.6-57.6-9.6-42.9 0-80.6 20.5-105.1 51.9C61.9 339.2 48 299.2 48 256c0-110.3 89.7-200 200-200s200 89.7 200 200c0 43.2-13.9 83.2-37.3 115.9z"
+                    ></path></svg></span
+                ><span
+                  class="
+                
+              "
+                  >About</span
+                ></a
+              ><a
+                class="flex items-center cursor-pointer rounded-md text-sm border px-3 py-2 gap-2 justify-start dark:hover:text-white hover:text-black hover:bg-gray-200 dark:hover:bg-transparent border-transparent"
+                href="/contact"
+                ><span
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      width="416"
+                      height="320"
+                      x="48"
+                      y="96"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                      rx="40"
+                      ry="40"
+                    ></rect>
+                    <path
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                      d="m112 160 144 112 144-112"
+                    ></path></svg></span
+                ><span
+                  class="
+                
+              "
+                  >Contact</span
+                ></a
+              ><a
+                class="flex items-center cursor-pointer rounded-md text-sm border px-3 py-2 gap-2 justify-start dark:hover:text-white hover:text-black hover:bg-gray-200 dark:hover:bg-transparent border-transparent"
+                href="/tools"
+                ><span
+                  ><svg
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"
+                    ></path></svg></span
+                ><span
+                  class="
+                
+              "
+                  >Tools</span
+                ></a
+              >
+            </div>
+            <div class="space-y-3 py-5">
+              <span class="text-sm mb-2 block">Connect</span>
+              <div class="space-y-1">
+                <a
+                  class="flex items-center cursor-pointer rounded-md text-sm px-1 py-1.5 hover:text-black hover:underline dark:hover:text-white transition-colors duration-200"
+                  href="https://onlyoneaman.medium.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><div class="flex items-center flex-grow">
+                    <span class="mr-2"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 448 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 32v448h448V32H0zm372.2 106.1l-24 23c-2.1 1.6-3.1 4.2-2.7 6.7v169.3c-.4 2.6.6 5.2 2.7 6.7l23.5 23v5.1h-118V367l24.3-23.6c2.4-2.4 2.4-3.1 2.4-6.7V199.8l-67.6 171.6h-9.1L125 199.8v115c-.7 4.8 1 9.7 4.4 13.2l31.6 38.3v5.1H71.2v-5.1l31.6-38.3c3.4-3.5 4.9-8.4 4.1-13.2v-133c.4-3.7-1-7.3-3.8-9.8L75 138.1V133h87.3l67.4 148L289 133.1h83.2v5z"
+                        ></path></svg></span
+                    ><span>Medium</span>
+                  </div>
+                  <span class="ml-1"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"
+                      ></path>
+                      <path
+                        d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"
+                      ></path></svg></span></a
+                ><a
+                  class="flex items-center cursor-pointer rounded-md text-sm px-1 py-1.5 hover:text-black hover:underline dark:hover:text-white transition-colors duration-200"
+                  href="https://twitter.com/onlyoneaman"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><div class="flex items-center flex-grow">
+                    <span class="mr-2"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                        ></path></svg></span
+                    ><span>Twitter</span>
+                  </div>
+                  <span class="ml-1"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"
+                      ></path>
+                      <path
+                        d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"
+                      ></path></svg></span></a
+                ><a
+                  class="flex items-center cursor-pointer rounded-md text-sm px-1 py-1.5 hover:text-black hover:underline dark:hover:text-white transition-colors duration-200"
+                  href="https://github.com/onlyoneaman"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><div class="flex items-center flex-grow">
+                    <span class="mr-2"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 496 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                        ></path></svg></span
+                    ><span>Github</span>
+                  </div>
+                  <span class="ml-1"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"
+                      ></path>
+                      <path
+                        d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"
+                      ></path></svg></span></a
+                ><a
+                  class="flex items-center cursor-pointer rounded-md text-sm px-1 py-1.5 hover:text-black hover:underline dark:hover:text-white transition-colors duration-200"
+                  href="https://linkedin.com/in/onlyoneaman"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><div class="flex items-center flex-grow">
+                    <span class="mr-2"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 448 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                        ></path></svg></span
+                    ><span>LinkedIn</span>
+                  </div>
+                  <span class="ml-1"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"
+                      ></path>
+                      <path
+                        d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"
+                      ></path></svg></span></a
+                ><a
+                  class="flex items-center cursor-pointer rounded-md text-sm px-1 py-1.5 hover:text-black hover:underline dark:hover:text-white transition-colors duration-200"
+                  href="https://instagram.com/_a_gryffindor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><div class="flex items-center flex-grow">
+                    <span class="mr-2"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 448 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                        ></path></svg></span
+                    ><span>Instagram</span>
+                  </div>
+                  <span class="ml-1"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"
+                      ></path>
+                      <path
+                        d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"
+                      ></path></svg></span
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grow p-4 sm:p-6 md:p-9 md:px-12 md:py-32 mx-4 sm:mx-12 lg:mx-24 max-w-4xl self-center"
+          >
+            <div class="mx-auto space-y-2 sm:space-y-3 md:space-y-5">
+              <h1
+                class="text-3xl md:text-5xl font-medium text-primary dark:text-white"
+              >
+                Pensieve
+              </h1>
+              <p class="text-sm sm:text-md">
+                A collection of thoughts, ideas, and musings. You can check more
+                of my writings on my
+                <a
+                  href="https://onlyoneaman.medium.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-blue-500 hover:underline"
+                  >Medium</a
+                >
+                profile.
+              </p>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 min-w-full gap-4 md:gap-6"
+              >
+                <a href="/blogs/solving-rubiks-cube"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Rubik’s Cube Solving Guide"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Frubiks-tutorial%2Fmain.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Frubiks-tutorial%2Fmain.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Frubiks-tutorial%2Fmain.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Rubik’s Cube Solving Guide
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          ></h3>
+                          <h4 class="text-xs line-clamp-2">
+                            Easy step-by-step guide to solve a 3×3 Rubik’s Cube
+                            using simple moves and clear pictures.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>May 17, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >tutorial</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/25"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="25 — A Quick Reflection"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2F25%2F25.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2F25%2F25.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2F25%2F25.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            25 — A Quick Reflection
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          ></h3>
+                          <h4 class="text-xs line-clamp-2">
+                            A quick reflection on my journey from 18 to 25.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>May 10, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >thought</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/market-projects"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="The Evergreen Launch &amp; Growth Checklist for Start-ups and Side-Projects"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fmarket-projects.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fmarket-projects.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fmarket-projects.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            The Evergreen Launch &amp; Growth Checklist for
+                            Start-ups and Side-Projects
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          ></h3>
+                          <h4 class="text-xs line-clamp-2">
+                            A living, repeat-able playbook you can reuse (and
+                            expand) every time you ship something new.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>May 04, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >resource</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/high-agency"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="High Agency: The Trait That Sets Top Performers Apart"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fhigh-agency.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fhigh-agency.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fhigh-agency.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            High Agency: The Trait That Sets Top Performers
+                            Apart
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          ></h3>
+                          <h4 class="text-xs line-clamp-2">
+                            High-agency employees are rare but invaluable.
+                            Here&#x27;s how to know if you&#x27;re one—and how
+                            to become one.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>May 04, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >thought</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/gpts-chatgpt-ai"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="ChatGPT GPTs: The Rise of AI Micro-Apps"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fchatgpt-gpts.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fchatgpt-gpts.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fchatgpt-gpts.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            ChatGPT GPTs: The Rise of AI Micro-Apps
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            GPTs are the new plugins—lightweight, personalized
+                            AI tools you can create and share instantly.
+                          </h3>
+                          <h4 class="text-xs line-clamp-2">
+                            Discover how GPTs are becoming the building blocks
+                            of a new AI-native app ecosystem, where to list
+                            them, and how to get featured.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>May 04, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >resource</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/browser-setup-for-ai"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Setting Up Browser Instances for AI &amp; Scraping"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fbrowser-setup-for-ai.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fbrowser-setup-for-ai.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fbrowser-setup-for-ai.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Setting Up Browser Instances for AI &amp; Scraping
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          ></h3>
+                          <h4 class="text-xs line-clamp-2">
+                            My go-to setup for spawning and managing browser
+                            instances at scale for scraping or AI agent use.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>May 04, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >resource</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/ui-ux-design-resources"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="UI/UX Design Resources"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fuiux-design-resources.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fuiux-design-resources.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fuiux-design-resources.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            UI/UX Design Resources
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          ></h3>
+                          <h4 class="text-xs line-clamp-2">
+                            Curated UI/UX resources to save you time and spark
+                            inspiration.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>May 03, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >resource</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/sql-cheatsheet"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="The Ultimate SQL Cheatsheet"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fsql-cheatsheet.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fsql-cheatsheet.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fsql-cheatsheet.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            The Ultimate SQL Cheatsheet
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            Master SQL with this essential cheatsheet of
+                            commands, joins, and best practices
+                          </h3>
+                          <h4 class="text-xs line-clamp-2">
+                            A comprehensive guide to essential SQL commands,
+                            joins, set operations, and best practices for
+                            efficient database querying and management.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>May 03, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >cheatsheet</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/setup-new-mac-tools"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Setting Up Mac for Development [2025]"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fmac-setup-2025.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fmac-setup-2025.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fmac-setup-2025.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Setting Up Mac for Development [2025]
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          ></h3>
+                          <h4 class="text-xs line-clamp-2">
+                            My go-to setup checklist for a fresh MacBook dev
+                            environment — tools, configs, and personal tweaks.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>May 03, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >resource</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/next-gen-uiux-ai"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Next-Gen UI/UX with AI"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fnext-gen-ai-uiu-x.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fnext-gen-ai-uiu-x.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fnext-gen-ai-uiu-x.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Next-Gen UI/UX with AI
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          ></h3>
+                          <h4 class="text-xs line-clamp-2">
+                            How AI is reshaping interfaces—from rigid flows to
+                            intuitive, adaptive experiences.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>May 03, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >thought</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/ai-internet-protocol-stack"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="The AI Internet Protocol Stack"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fai-internet-protocol.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fai-internet-protocol.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fai-internet-protocol.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            The AI Internet Protocol Stack
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            llms.txt and MCP are forming the foundational layers
+                            of an AI-native internet protocol stack
+                          </h3>
+                          <h4 class="text-xs line-clamp-2">
+                            From llms.txt to MCP, we’re witnessing the early
+                            layers of an emerging AI-native internet protocol
+                            stack.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>May 03, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >thought</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/engineer-vs-entrepreneur"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Engineer vs Entrepreneur"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fengineer-entrepreneur%2Fimage.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fengineer-entrepreneur%2Fimage.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fengineer-entrepreneur%2Fimage.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Engineer vs Entrepreneur
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          ></h3>
+                          <h4 class="text-xs line-clamp-2">
+                            A short story and reflection on builders vs
+                            visionaries — and figuring out where you fall.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>May 02, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >thought</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/zsh-aliases-productivity"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="My Handy Zsh Aliases for Faster Dev Work"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fzsh-aliases-productivity.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fzsh-aliases-productivity.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fzsh-aliases-productivity.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            My Handy Zsh Aliases for Faster Dev Work
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            Cut typing. Save time. Get more done.
+                          </h3>
+                          <h4 class="text-xs line-clamp-2">
+                            Simple, effective zsh aliases for npm, git, and
+                            terminal productivity.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Apr 29, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >thought</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/must-watch"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Must Watch"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fmust-watch.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fmust-watch.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fmust-watch.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Must Watch
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            Must-Watch Movies &amp; Series for Tech, Innovation,
+                            and Philosophy Lovers
+                          </h3>
+                          <h4 class="text-xs line-clamp-2">
+                            A collection of must-watch movies / series.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Apr 26, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >thought</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/devs-ai-tools-to-use"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Devs AI Tools to Use"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fai-tools-to-use.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fai-tools-to-use.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fai-tools-to-use.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Devs AI Tools to Use
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            Keep this list handy. Will update as tools evolve.
+                          </h3>
+                          <h4 class="text-xs line-clamp-2">
+                            A live list of AI tools that developers should
+                            bookmark and use.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Apr 26, 2025</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >thought</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/laws-of-ux"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Laws of UX"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Flaws-of-ux.jpg&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Flaws-of-ux.jpg&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Flaws-of-ux.jpg&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Laws of UX
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            Rules that UX designers should consider when
+                            designing user interfaces.
+                          </h3>
+                          <h4 class="text-xs line-clamp-2">
+                            A collection of the key maxims that designers must
+                            consider when building user interfaces.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Oct 02, 2024</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >thought</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a
+                  href="/blogs/why-product-vision-should-trump-market-demands-a-contrarian-view"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Why Product Vision Should Trump Market Demands: A Contrarian View"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fwhy-product-vision-should-trump-market-demands-a-contrarian-view.jpeg&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fwhy-product-vision-should-trump-market-demands-a-contrarian-view.jpeg&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fwhy-product-vision-should-trump-market-demands-a-contrarian-view.jpeg&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Why Product Vision Should Trump Market Demands: A
+                            Contrarian View
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            People don’t know what they want until you show it
+                            to them.
+                          </h3>
+                          <h4 class="text-xs line-clamp-2">
+                            In the dynamic world of product development, there’s
+                            a counterintuitive truth that many of us learn
+                            through experience: sometimes, less feedback is
+                            more. As a product engineer and ex-founder in the
+                            thick of development cycles, I’ve realised that
+                            while customer input is valuable, it shouldn’t be
+                            the sole driver of product development.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Jul 15, 2024</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >thought</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/how-to-do-great-work"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="How to Do Great Work: Insights from Paul Graham"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fhow-to-do-great-work.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fhow-to-do-great-work.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fhow-to-do-great-work.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            How to Do Great Work: Insights from Paul Graham
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            Ambition and curiosity are the cornerstones of great
+                            work.
+                          </h3>
+                          <h4 class="text-xs line-clamp-2">
+                            Paul Graham&#x27;s insights on achieving significant
+                            accomplishments provide a structured yet flexible
+                            roadmap. By combining ambition, curiosity, hard
+                            work, and a keen eye for opportunities, anyone can
+                            elevate their work to new heights. Great work is not
+                            about following a rigid formula but about adapting
+                            these principles to your unique path and
+                            continuously striving for excellence.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Jul 14, 2024</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >thought</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/public-apis"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Public APIs"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fpublic-apis.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fpublic-apis.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fpublic-apis.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Public APIs
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          ></h3>
+                          <h4 class="text-xs line-clamp-2">
+                            Discover 10 essential public APIs for your tech
+                            projects, covering everything from global data and
+                            music to space exploration and more. Enhance your
+                            apps with APIs for countries, plants, NASA, Spotify,
+                            news, sunrise/sunset, Pokémon, movies, and pet
+                            facts. Ideal for developers seeking to add unique
+                            data and functionality.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Jun 27, 2023</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >tutorial</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a
+                  href="/blogs/essential-books-for-aspiring-world-class-programmers"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Essential Books for Aspiring World-Class Programmers"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fbooks.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fbooks.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fbooks.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Essential Books for Aspiring World-Class Programmers
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          ></h3>
+                          <h4 class="text-xs line-clamp-2">
+                            To become a world-class programmer, building a
+                            strong foundation of knowledge and skills is
+                            crucial. Here are some essential books that can help
+                            you achieve that goal.
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Jun 26, 2023</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >tutorial</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a
+                  href="/blogs/build-support-bot-from-your-company-knowledge-base-with-python-openai"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="A Support Bot based on your company&#x27;s knowledge base and powered by ChatGPT"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fprojects%2Fsupport-bot.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fprojects%2Fsupport-bot.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fprojects%2Fsupport-bot.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            A Support Bot based on your company&#x27;s knowledge
+                            base and powered by ChatGPT
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          ></h3>
+                          <h4 class="text-xs line-clamp-2"></h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Apr 29, 2023</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >tutorial</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a
+                  href="/blogs/how-to-install-tig-stack-telegraf-influx-and-grafana-on-ubuntu"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="How to Install TIG stack (Telegraf, Influx and Grafana) on Ubuntu"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fhow-to-install-tig-stack-telegraf-influx-and-grafana-on-ubuntu.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fhow-to-install-tig-stack-telegraf-influx-and-grafana-on-ubuntu.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fhow-to-install-tig-stack-telegraf-influx-and-grafana-on-ubuntu.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            How to Install TIG stack (Telegraf, Influx and
+                            Grafana) on Ubuntu
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            20K+ Views | 50+ Claps
+                          </h3>
+                          <h4 class="text-xs line-clamp-2"></h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>May 22, 2021</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >tutorial</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/creating-a-chrome-extension-with-react"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Creating a Chrome Extension with React"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fcreating-a-chrome-extension-with-react.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fcreating-a-chrome-extension-with-react.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fcreating-a-chrome-extension-with-react.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Creating a Chrome Extension with React
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            52K+ Views | 300+ Claps
+                          </h3>
+                          <h4 class="text-xs line-clamp-2">
+                            A step-by-step guide to building a Chrome extension
+                            using React
+                          </h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Feb 05, 2021</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >tutorial</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a
+                  href="/blogs/working-with-cookies-and-creating-cookies-in-javascript"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Working With Cookies and Creating Cookies in JavaScript"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fworking-with-cookies-and-creating-cookies-in-javascript.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fworking-with-cookies-and-creating-cookies-in-javascript.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fworking-with-cookies-and-creating-cookies-in-javascript.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Working With Cookies and Creating Cookies in
+                            JavaScript
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            21K+ Views | 60+ Claps
+                          </h3>
+                          <h4 class="text-xs line-clamp-2"></h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Nov 01, 2020</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >tutorial</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a
+                  href="/blogs/session-management-across-subdomains-localstorage-vs-cookies"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Session Management across Subdomains: Localstorage vs Cookies"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fsession-management-across-subdomains-localstorage-vs-cookies.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fsession-management-across-subdomains-localstorage-vs-cookies.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fsession-management-across-subdomains-localstorage-vs-cookies.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Session Management across Subdomains: Localstorage
+                            vs Cookies
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            20K+ Views | 50+ Claps
+                          </h3>
+                          <h4 class="text-xs line-clamp-2"></h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Nov 01, 2020</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >tutorial</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a
+                  href="/blogs/integrate-facebook-pixel-and-fb-pixel-events-in-gatsbyjs"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Integrate Facebook Pixel and Fb Pixel Events in GatsbyJs"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fintegrate-facebook-pixel-and-fb-pixel-events-in-gatsbyjs.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fintegrate-facebook-pixel-and-fb-pixel-events-in-gatsbyjs.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fintegrate-facebook-pixel-and-fb-pixel-events-in-gatsbyjs.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Integrate Facebook Pixel and Fb Pixel Events in
+                            GatsbyJs
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            3K+ Views
+                          </h3>
+                          <h4 class="text-xs line-clamp-2"></h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Oct 21, 2020</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >tutorial</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/link-your-form-with-google-form-for-responses"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Link Your Form with Google Form for Responses"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Flink-your-form-with-google-form-for-responses.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Flink-your-form-with-google-form-for-responses.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Flink-your-form-with-google-form-for-responses.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Link Your Form with Google Form for Responses
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          >
+                            5K+ Views
+                          </h3>
+                          <h4 class="text-xs line-clamp-2"></h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Jun 16, 2020</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >tutorial</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="/blogs/setting-up-cors-for-rails-api-app"
+                  ><div class="w-full h-full" tabindex="0">
+                    <div
+                      class="rounded-xl border shadow bg-neutral-200 dark:bg-slate border-none text-gray-800 dark:text-white hover:border-zinc-800 min-w-full h-full flex flex-col"
+                    >
+                      <div class="space-y-1.5 flex flex-col p-2 gap-2">
+                        <img
+                          alt="Setting up CORS for Rails API App"
+                          loading="lazy"
+                          width="500"
+                          height="500"
+                          decoding="async"
+                          data-nimg="1"
+                          class="rounded-md object-cover h-36 sm:h-36 md:h-48"
+                          style="color: transparent"
+                          srcset="
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fsetting-up-cors-for-rails-api-app.png&amp;w=640&amp;q=75  1x,
+                            /_next/image?url=%2Fcontent%2Fblogs%2Fsetting-up-cors-for-rails-api-app.png&amp;w=1080&amp;q=75 2x
+                          "
+                          src="/_next/image?url=%2Fcontent%2Fblogs%2Fsetting-up-cors-for-rails-api-app.png&amp;w=1080&amp;q=75"
+                        />
+                      </div>
+                      <div class="p-6 pt-0 flex flex-col gap-1 flex-1 pb-4">
+                        <div class="flex-1">
+                          <h2
+                            class="text-primary dark:text-white font-semibold line-clamp-1"
+                          >
+                            Setting up CORS for Rails API App
+                          </h2>
+                          <h3
+                            class="text-gray-800 dark:text-zinc-400 text-sm line-clamp-1"
+                          ></h3>
+                          <h4 class="text-xs line-clamp-2"></h4>
+                        </div>
+                        <div
+                          class="flex gap-2 items-center justify-between text-xs text-zinc-700 dark:text-zinc-400 mt-auto pt-2"
+                        >
+                          <span>Jun 02, 2020</span
+                          ><span
+                            class="bg-zinc-800 text-white rounded-md px-2 py-1"
+                            >tutorial</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div></a
+                >
+              </div>
+            </div>
+          </div>
+          <footer
+            class="flex self-end min-w-full p-3 sm:p-5 flex-col border-t-[0.5px] text-gray-700 border-gray-700 dark:text-gray-500 space-x-3 gap-2 text-xs sm:text-sm max-w-xl md:max-w-4xl mx-auto"
+          >
+            <div class="flex justify-between items-center">
+              <div class="flex items-center">
+                <a
+                  class="text-gray-700 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 hover:underline transition-colors duration-300 ease-in-out"
+                  href="/contact"
+                  >Reach out →</a
+                >
+              </div>
+              <div class="space-x-1">
+                <span class="hidden sm:inline-block">Made by Aman |</span
+                ><span
+                  >©
+                  <!-- -->2025</span
+                >
+              </div>
+              <div class="flex items-center gap-3">
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-gray-600 bg-secondary shadow-sm hover:bg-secondary/80 h-9 w-9 text-primary dark:text-oldsilver border-none focus:border-none active:border-none"
+                  type="button"
+                  id="radix-:R1va6:"
+                  aria-haspopup="menu"
+                  aria-expanded="false"
+                  data-state="closed"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-sun h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"
+                  >
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <path d="M12 2v2"></path>
+                    <path d="M12 20v2"></path>
+                    <path d="m4.93 4.93 1.41 1.41"></path>
+                    <path d="m17.66 17.66 1.41 1.41"></path>
+                    <path d="M2 12h2"></path>
+                    <path d="M20 12h2"></path>
+                    <path d="m6.34 17.66-1.41 1.41"></path>
+                    <path d="m19.07 4.93-1.41 1.41"></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-moon absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"
+                  >
+                    <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg
+                  ><span class="sr-only">Toggle theme</span>
+                </button>
+                <div
+                  class="text-md sm:text-lg text-primary dark:text-white font-light w-20 sm:w-28"
+                ></div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": {
+          "pageProps": {
+            "allPostsData": [
+              {
+                "slug": "solving-rubiks-cube",
+                "title": "Rubik’s Cube Solving Guide",
+                "description": "Easy step-by-step guide to solve a 3×3 Rubik’s Cube using simple moves and clear pictures.",
+                "date": "2025-05-17",
+                "tags": ["Tutorial", "Puzzle"],
+                "image": "/content/blogs/rubiks-tutorial/main.png",
+                "type": "tutorial"
+              },
+              {
+                "slug": "25",
+                "title": "25 — A Quick Reflection",
+                "description": "A quick reflection on my journey from 18 to 25.",
+                "date": "2025-05-10",
+                "type": "thought",
+                "tags": ["Personal"],
+                "image": "/content/blogs/25/25.png"
+              },
+              {
+                "slug": "market-projects",
+                "title": "The Evergreen Launch \u0026 Growth Checklist for Start-ups and Side-Projects",
+                "description": "A living, repeat-able playbook you can reuse (and expand) every time you ship something new.",
+                "date": "2025-05-04",
+                "type": "resource",
+                "tags": [
+                  "marketing",
+                  "launch",
+                  "startup",
+                  "side-project",
+                  "SEO"
+                ],
+                "image": "/content/blogs/market-projects.png"
+              },
+              {
+                "slug": "high-agency",
+                "title": "High Agency: The Trait That Sets Top Performers Apart",
+                "description": "High-agency employees are rare but invaluable. Here's how to know if you're one—and how to become one.",
+                "date": "2025-05-04",
+                "type": "thought",
+                "tags": ["career", "mindset", "proactive", "agency", "work"],
+                "image": "/content/blogs/high-agency.png"
+              },
+              {
+                "slug": "gpts-chatgpt-ai",
+                "title": "ChatGPT GPTs: The Rise of AI Micro-Apps",
+                "description": "Discover how GPTs are becoming the building blocks of a new AI-native app ecosystem, where to list them, and how to get featured.",
+                "date": "2025-05-04",
+                "type": "resource",
+                "tags": ["ChatGPT", "GPTs", "AI apps", "microapps", "OpenAI"],
+                "image": "/content/blogs/chatgpt-gpts.png",
+                "highlight": "GPTs are the new plugins—lightweight, personalized AI tools you can create and share instantly."
+              },
+              {
+                "slug": "browser-setup-for-ai",
+                "title": "Setting Up Browser Instances for AI \u0026 Scraping",
+                "date": "2025-05-04",
+                "tags": [
+                  "puppeteer",
+                  "scraping",
+                  "browser automation",
+                  "infrastructure"
+                ],
+                "type": "resource",
+                "description": "My go-to setup for spawning and managing browser instances at scale for scraping or AI agent use.",
+                "image": "/content/blogs/browser-setup-for-ai.png"
+              },
+              {
+                "slug": "ui-ux-design-resources",
+                "title": "UI/UX Design Resources",
+                "date": "2025-05-03",
+                "tags": ["ui", "ux", "design", "resources", "awesome-lists"],
+                "type": "resource",
+                "description": "Curated UI/UX resources to save you time and spark inspiration.",
+                "image": "/content/blogs/uiux-design-resources.png"
+              },
+              {
+                "slug": "sql-cheatsheet",
+                "title": "The Ultimate SQL Cheatsheet",
+                "description": "A comprehensive guide to essential SQL commands, joins, set operations, and best practices for efficient database querying and management.",
+                "date": "2025-05-03",
+                "type": "cheatsheet",
+                "tags": [
+                  "SQL",
+                  "Database",
+                  "Cheatsheet",
+                  "Best Practices",
+                  "Reference"
+                ],
+                "image": "/content/blogs/sql-cheatsheet.png",
+                "highlight": "Master SQL with this essential cheatsheet of commands, joins, and best practices"
+              },
+              {
+                "slug": "setup-new-mac-tools",
+                "title": "Setting Up Mac for Development [2025]",
+                "description": "My go-to setup checklist for a fresh MacBook dev environment — tools, configs, and personal tweaks.",
+                "date": "2025-05-03",
+                "type": "resource",
+                "tags": [
+                  "mac",
+                  "dev-setup",
+                  "windsurf",
+                  "productivity",
+                  "tooling"
+                ],
+                "image": "/content/blogs/mac-setup-2025.png"
+              },
+              {
+                "slug": "next-gen-uiux-ai",
+                "title": "Next-Gen UI/UX with AI",
+                "description": "How AI is reshaping interfaces—from rigid flows to intuitive, adaptive experiences.",
+                "date": "2025-05-03",
+                "tags": ["AI", "UI/UX", "design", "generative", "LLMs"],
+                "type": "thought",
+                "image": "/content/blogs/next-gen-ai-uiu-x.png"
+              },
+              {
+                "slug": "ai-internet-protocol-stack",
+                "title": "The AI Internet Protocol Stack",
+                "description": "From llms.txt to MCP, we’re witnessing the early layers of an emerging AI-native internet protocol stack.",
+                "date": "2025-05-03",
+                "type": "thought",
+                "tags": [
+                  "AI",
+                  "protocols",
+                  "internet",
+                  "llms.txt",
+                  "MCP",
+                  "future"
+                ],
+                "image": "/content/blogs/ai-internet-protocol.png",
+                "highlight": "llms.txt and MCP are forming the foundational layers of an AI-native internet protocol stack"
+              },
+              {
+                "slug": "engineer-vs-entrepreneur",
+                "title": "Engineer vs Entrepreneur",
+                "date": "2025-05-02",
+                "description": "A short story and reflection on builders vs visionaries — and figuring out where you fall.",
+                "type": "thought",
+                "tags": [
+                  "entrepreneurship",
+                  "engineering",
+                  "personality",
+                  "startups",
+                  "reflection"
+                ],
+                "image": "/content/blogs/engineer-entrepreneur/image.png"
+              },
+              {
+                "slug": "zsh-aliases-productivity",
+                "title": "My Handy Zsh Aliases for Faster Dev Work",
+                "description": "Simple, effective zsh aliases for npm, git, and terminal productivity.",
+                "date": "2025-04-29",
+                "type": "thought",
+                "image": "/content/blogs/zsh-aliases-productivity.png",
+                "highlight": "Cut typing. Save time. Get more done."
+              },
+              {
+                "slug": "must-watch",
+                "title": "Must Watch",
+                "description": "A collection of must-watch movies / series.",
+                "date": "2025-04-26",
+                "type": "thought",
+                "tags": [
+                  "movies",
+                  "series",
+                  "tech",
+                  "innovation",
+                  "philosophy"
+                ],
+                "image": "/content/blogs/must-watch.png",
+                "highlight": "Must-Watch Movies \u0026 Series for Tech, Innovation, and Philosophy Lovers"
+              },
+              {
+                "slug": "devs-ai-tools-to-use",
+                "title": "Devs AI Tools to Use",
+                "description": "A live list of AI tools that developers should bookmark and use.",
+                "date": "2025-04-26",
+                "type": "thought",
+                "image": "/content/blogs/ai-tools-to-use.png",
+                "highlight": "Keep this list handy. Will update as tools evolve."
+              },
+              {
+                "slug": "laws-of-ux",
+                "title": "Laws of UX",
+                "description": "A collection of the key maxims that designers must consider when building user interfaces.",
+                "date": "2024-10-02",
+                "type": "thought",
+                "image": "/content/blogs/laws-of-ux.jpg",
+                "highlight": "Rules that UX designers should consider when designing user interfaces."
+              },
+              {
+                "slug": "why-product-vision-should-trump-market-demands-a-contrarian-view",
+                "title": "Why Product Vision Should Trump Market Demands: A Contrarian View",
+                "date": "2024-07-15",
+                "type": "thought",
+                "link": "https://onlyoneaman.medium.com/why-product-vision-should-trump-market-demands-a-contrarian-view-1eb67812fadb",
+                "description": "In the dynamic world of product development, there’s a counterintuitive truth that many of us learn through experience: sometimes, less feedback is more. As a product engineer and ex-founder in the thick of development cycles, I’ve realised that while customer input is valuable, it shouldn’t be the sole driver of product development.",
+                "highlight": "People don’t know what they want until you show it to them.",
+                "image": "/content/blogs/why-product-vision-should-trump-market-demands-a-contrarian-view.jpeg"
+              },
+              {
+                "slug": "how-to-do-great-work",
+                "title": "How to Do Great Work: Insights from Paul Graham",
+                "date": "2024-07-14",
+                "type": "thought",
+                "description": "Paul Graham's insights on achieving significant accomplishments provide a structured yet flexible roadmap. By combining ambition, curiosity, hard work, and a keen eye for opportunities, anyone can elevate their work to new heights. Great work is not about following a rigid formula but about adapting these principles to your unique path and continuously striving for excellence.",
+                "highlight": "Ambition and curiosity are the cornerstones of great work.",
+                "image": "/content/blogs/how-to-do-great-work.png"
+              },
+              {
+                "slug": "template",
+                "title": "",
+                "date": "2023-06-28",
+                "hidden": true,
+                "type": "thought",
+                "link": "",
+                "description": "",
+                "highlight": "",
+                "image": ""
+              },
+              {
+                "slug": "my-second-post",
+                "title": "My Second Blog Post",
+                "date": "2023-06-28",
+                "hidden": true,
+                "type": "other"
+              },
+              {
+                "slug": "public-apis",
+                "title": "Public APIs",
+                "description": "Discover 10 essential public APIs for your tech projects, covering everything from global data and music to space exploration and more. Enhance your apps with APIs for countries, plants, NASA, Spotify, news, sunrise/sunset, Pokémon, movies, and pet facts. Ideal for developers seeking to add unique data and functionality.",
+                "date": "2023-06-27",
+                "image": "/content/blogs/public-apis.png",
+                "type": "tutorial"
+              },
+              {
+                "slug": "my-first-post",
+                "title": "My First Blog Post",
+                "description": "This is the content of my first blog post.",
+                "date": "2023-06-27",
+                "hidden": true,
+                "type": "other"
+              },
+              {
+                "slug": "essential-books-for-aspiring-world-class-programmers",
+                "title": "Essential Books for Aspiring World-Class Programmers",
+                "description": "To become a world-class programmer, building a strong foundation of knowledge and skills is crucial. Here are some essential books that can help you achieve that goal.",
+                "date": "2023-06-26",
+                "type": "tutorial",
+                "cardImage": "/content/blogs/books.png"
+              },
+              {
+                "slug": "build-support-bot-from-your-company-knowledge-base-with-python-openai",
+                "title": "A Support Bot based on your company's knowledge base and powered by ChatGPT",
+                "date": "2023-04-29",
+                "type": "tutorial",
+                "image": "/content/projects/support-bot.png",
+                "link": "https://betterprogramming.pub/building-a-support-bot-for-your-website-using-python-openai-3cde0a6b5e91"
+              },
+              {
+                "slug": "how-to-install-tig-stack-telegraf-influx-and-grafana-on-ubuntu",
+                "title": "How to Install TIG stack (Telegraf, Influx and Grafana) on Ubuntu",
+                "date": "2021-05-22",
+                "type": "tutorial",
+                "link": "https://onlyoneaman.medium.com/how-to-install-tig-stack-telegraf-influx-and-grafana-on-ubuntu-405755901ac2",
+                "image": "/content/blogs/how-to-install-tig-stack-telegraf-influx-and-grafana-on-ubuntu.png",
+                "highlight": "20K+ Views | 50+ Claps"
+              },
+              {
+                "slug": "creating-a-chrome-extension-with-react",
+                "title": "Creating a Chrome Extension with React",
+                "description": "A step-by-step guide to building a Chrome extension using React",
+                "highlight": "52K+ Views | 300+ Claps",
+                "date": "2021-02-05",
+                "type": "tutorial",
+                "image": "/content/blogs/creating-a-chrome-extension-with-react.png",
+                "link": "https://javascript.plainenglish.io/creating-a-chrome-extension-with-react-d92db20550cb?gi=00240dd2868e"
+              },
+              {
+                "slug": "working-with-cookies-and-creating-cookies-in-javascript",
+                "title": "Working With Cookies and Creating Cookies in JavaScript",
+                "date": "2020-11-01",
+                "type": "tutorial",
+                "link": "https://onlyoneaman.medium.com/integrate-facebook-pixel-and-fb-pixel-events-in-gatsbyjs-5ac10e0bf7d1",
+                "image": "/content/blogs/working-with-cookies-and-creating-cookies-in-javascript.png",
+                "highlight": "21K+ Views | 60+ Claps"
+              },
+              {
+                "slug": "session-management-across-subdomains-localstorage-vs-cookies",
+                "title": "Session Management across Subdomains: Localstorage vs Cookies",
+                "date": "2020-11-01",
+                "type": "tutorial",
+                "image": "/content/blogs/session-management-across-subdomains-localstorage-vs-cookies.png",
+                "highlight": "20K+ Views | 50+ Claps",
+                "link": "https://onlyoneaman.medium.com/session-management-across-subdomains-localstorage-vs-cookies-369d8d45adf8"
+              },
+              {
+                "slug": "integrate-facebook-pixel-and-fb-pixel-events-in-gatsbyjs",
+                "title": "Integrate Facebook Pixel and Fb Pixel Events in GatsbyJs",
+                "date": "2020-10-21",
+                "type": "tutorial",
+                "highlight": "3K+ Views",
+                "image": "/content/blogs/integrate-facebook-pixel-and-fb-pixel-events-in-gatsbyjs.png",
+                "link": "https://onlyoneaman.medium.com/integrate-facebook-pixel-and-fb-pixel-events-in-gatsbyjs-5ac10e0bf7d1"
+              },
+              {
+                "slug": "link-your-form-with-google-form-for-responses",
+                "title": "Link Your Form with Google Form for Responses",
+                "date": "2020-06-16",
+                "type": "tutorial",
+                "highlight": "5K+ Views",
+                "image": "/content/blogs/link-your-form-with-google-form-for-responses.png",
+                "link": "https://onlyoneaman.medium.com/link-your-form-with-google-form-for-responses-7a408dafb8f8"
+              },
+              {
+                "slug": "setting-up-cors-for-rails-api-app",
+                "title": "Setting up CORS for Rails API App",
+                "date": "2020-06-02",
+                "image": "/content/blogs/setting-up-cors-for-rails-api-app.png",
+                "link": "https://onlyoneaman.medium.com/setting-up-cors-for-rails-api-app-a76217297914",
+                "type": "tutorial"
+              }
+            ]
+          },
+          "__N_SSG": true
+        },
+        "page": "/blogs",
+        "query": {},
+        "buildId": "-jFpHzdN20srjH-VV1F44",
+        "isFallback": false,
+        "gsp": true,
+        "scriptLoader": []
+      }
+    </script>
+    <!-- Cloudflare Pages Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "d99311843d754174bd6abba08a0bf945"}'
+    ></script>
+    <!-- Cloudflare Pages Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+      data-cf-beacon='{"rayId":"942d19273d3efd24","version":"2025.4.0-1-g37f21b1","r":1,"token":"94413ef200194aba8983493a1b29d873","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

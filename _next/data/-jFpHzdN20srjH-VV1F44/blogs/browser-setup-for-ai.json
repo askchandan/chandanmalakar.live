@@ -1,0 +1,15 @@
+{
+  "pageProps": {
+    "post": {
+      "slug": "browser-setup-for-ai",
+      "content": "\nIf you’re running scraping tasks or AI agents that need to browse the web, you don’t want to spawn a browser from scratch every time. You want an army—pre-spawned, ready, and manageable. Here’s the setup I keep coming back to.\n\n#### 1. A Beefy Server  \nRAM is the bottleneck. I usually go for a dedicated machine with as much memory as possible—at least 64GB. No GPU needed, just solid cores and space to breathe.\n\n#### 2. Residential Proxies  \nDatacenter IPs don’t cut it anymore. I use residential proxies behind a simple load balancer. Nothing fancy—just enough rotation to avoid blocks.\n\n#### 3. Pre-Spawned Puppeteer Pool  \nI spin up as many Puppeteer instances as the RAM can handle. These sit idle, headless, and waiting. Cold starts are expensive—better to keep the pool warm.\n\n#### 4. Remote Debugging + Liveness  \nEach browser exposes a WebSocket endpoint using remote debugging. I run a small script that keeps them subscribed to a central “heartbeat,” so I know which ones are alive and which ones died silently.\n\n#### 5. Use, Kill, Respawn  \nOn request:\n- Pick an available instance  \n- Lock it  \n- Run your task  \n- Kill it  \n- Spawn a new one  \n\nMemory leaks? Don’t debug. Just destroy and replace. Works better long-term.\n\n---\n\nThis setup has held up across scraping workloads, agent testing, even some UI testing setups. Clean. Reusable. Disposable.\n\n",
+      "title": "Setting Up Browser Instances for AI & Scraping",
+      "description": "My go-to setup for spawning and managing browser instances at scale for scraping or AI agent use.",
+      "date": "2025-05-04",
+      "type": "resource",
+      "tags": ["puppeteer", "scraping", "browser automation", "infrastructure"],
+      "image": "/content/blogs/browser-setup-for-ai.png"
+    }
+  },
+  "__N_SSG": true
+}

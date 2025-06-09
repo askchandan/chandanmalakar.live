@@ -1,0 +1,19 @@
+{
+  "pageProps": {
+    "post": {
+      "slug": "clarity-shopify-app",
+      "content": "\n\n## About\n\nThe **Clarity Session Replay Heatmap** app seamlessly integrates Microsoft Clarity into Shopify stores, providing valuable insights through session replays, heatmaps, and comprehensive behavior tracking. With features like real-time monitoring, event tracking, and customizable analytics dashboards, you can enhance user experience, identify and resolve issues, and reduce cart abandonment. \nThe app offers flexible pricing plans to suit various needs, starting at $1.99/month, and is designed to work directly within the Shopify admin interface, ensuring ease of use and quick setup.\n\n## Tech Stack\n- Shopify\n- TypeScript\n- Node.js\n- Supabase\n\n## Installation\n\n1. Go to the [Shopify App Store](https://apps.shopify.com/clarity-session-replay-heatmap)\n2. Click on the \"Add app to your store\" button\n3. Follow the instructions to install the app\n4. Configure the app to track your store\n5. Start using the app\n",
+      "title": "Clarity Session Replay Heatmap",
+      "description": "Integrate Microsoft Clarity with your Shopify store to gain insights through session replays, heatmaps, and behavior tracking. Enhance user experience and reduce cart abandonment effortlessly.",
+      "date": "2024-11-20",
+      "type": "other",
+      "tags": ["Analytics", "Heatmaps", "Session Replay", "Shopify App"],
+      "techStack": ["Microsoft Clarity", "Shopify"],
+      "link": "https://apps.shopify.com/clarity-session-replay-heatmap",
+      "label": "Shopify App Store",
+      "image": "/content/projects/clarity-shopify/image.png",
+      "status": "active"
+    }
+  },
+  "__N_SSG": true
+}

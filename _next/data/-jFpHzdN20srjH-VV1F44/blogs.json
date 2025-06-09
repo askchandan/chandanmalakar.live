@@ -1,0 +1,304 @@
+{
+  "pageProps": {
+    "allPostsData": [
+      {
+        "slug": "solving-rubiks-cube",
+        "title": "Rubik’s Cube Solving Guide",
+        "description": "Easy step-by-step guide to solve a 3×3 Rubik’s Cube using simple moves and clear pictures.",
+        "date": "2025-05-17",
+        "tags": ["Tutorial", "Puzzle"],
+        "image": "/content/blogs/rubiks-tutorial/main.png",
+        "type": "tutorial"
+      },
+      {
+        "slug": "25",
+        "title": "25 — A Quick Reflection",
+        "description": "A quick reflection on my journey from 18 to 25.",
+        "date": "2025-05-10",
+        "type": "thought",
+        "tags": ["Personal"],
+        "image": "/content/blogs/25/25.png"
+      },
+      {
+        "slug": "market-projects",
+        "title": "The Evergreen Launch & Growth Checklist for Start-ups and Side-Projects",
+        "description": "A living, repeat-able playbook you can reuse (and expand) every time you ship something new.",
+        "date": "2025-05-04",
+        "type": "resource",
+        "tags": ["marketing", "launch", "startup", "side-project", "SEO"],
+        "image": "/content/blogs/market-projects.png"
+      },
+      {
+        "slug": "high-agency",
+        "title": "High Agency: The Trait That Sets Top Performers Apart",
+        "description": "High-agency employees are rare but invaluable. Here's how to know if you're one—and how to become one.",
+        "date": "2025-05-04",
+        "type": "thought",
+        "tags": ["career", "mindset", "proactive", "agency", "work"],
+        "image": "/content/blogs/high-agency.png"
+      },
+      {
+        "slug": "gpts-chatgpt-ai",
+        "title": "ChatGPT GPTs: The Rise of AI Micro-Apps",
+        "description": "Discover how GPTs are becoming the building blocks of a new AI-native app ecosystem, where to list them, and how to get featured.",
+        "date": "2025-05-04",
+        "type": "resource",
+        "tags": ["ChatGPT", "GPTs", "AI apps", "microapps", "OpenAI"],
+        "image": "/content/blogs/chatgpt-gpts.png",
+        "highlight": "GPTs are the new plugins—lightweight, personalized AI tools you can create and share instantly."
+      },
+      {
+        "slug": "browser-setup-for-ai",
+        "title": "Setting Up Browser Instances for AI & Scraping",
+        "date": "2025-05-04",
+        "tags": [
+          "puppeteer",
+          "scraping",
+          "browser automation",
+          "infrastructure"
+        ],
+        "type": "resource",
+        "description": "My go-to setup for spawning and managing browser instances at scale for scraping or AI agent use.",
+        "image": "/content/blogs/browser-setup-for-ai.png"
+      },
+      {
+        "slug": "ui-ux-design-resources",
+        "title": "UI/UX Design Resources",
+        "date": "2025-05-03",
+        "tags": ["ui", "ux", "design", "resources", "awesome-lists"],
+        "type": "resource",
+        "description": "Curated UI/UX resources to save you time and spark inspiration.",
+        "image": "/content/blogs/uiux-design-resources.png"
+      },
+      {
+        "slug": "sql-cheatsheet",
+        "title": "The Ultimate SQL Cheatsheet",
+        "description": "A comprehensive guide to essential SQL commands, joins, set operations, and best practices for efficient database querying and management.",
+        "date": "2025-05-03",
+        "type": "cheatsheet",
+        "tags": [
+          "SQL",
+          "Database",
+          "Cheatsheet",
+          "Best Practices",
+          "Reference"
+        ],
+        "image": "/content/blogs/sql-cheatsheet.png",
+        "highlight": "Master SQL with this essential cheatsheet of commands, joins, and best practices"
+      },
+      {
+        "slug": "setup-new-mac-tools",
+        "title": "Setting Up Mac for Development [2025]",
+        "description": "My go-to setup checklist for a fresh MacBook dev environment — tools, configs, and personal tweaks.",
+        "date": "2025-05-03",
+        "type": "resource",
+        "tags": ["mac", "dev-setup", "windsurf", "productivity", "tooling"],
+        "image": "/content/blogs/mac-setup-2025.png"
+      },
+      {
+        "slug": "next-gen-uiux-ai",
+        "title": "Next-Gen UI/UX with AI",
+        "description": "How AI is reshaping interfaces—from rigid flows to intuitive, adaptive experiences.",
+        "date": "2025-05-03",
+        "tags": ["AI", "UI/UX", "design", "generative", "LLMs"],
+        "type": "thought",
+        "image": "/content/blogs/next-gen-ai-uiu-x.png"
+      },
+      {
+        "slug": "ai-internet-protocol-stack",
+        "title": "The AI Internet Protocol Stack",
+        "description": "From llms.txt to MCP, we’re witnessing the early layers of an emerging AI-native internet protocol stack.",
+        "date": "2025-05-03",
+        "type": "thought",
+        "tags": ["AI", "protocols", "internet", "llms.txt", "MCP", "future"],
+        "image": "/content/blogs/ai-internet-protocol.png",
+        "highlight": "llms.txt and MCP are forming the foundational layers of an AI-native internet protocol stack"
+      },
+      {
+        "slug": "engineer-vs-entrepreneur",
+        "title": "Engineer vs Entrepreneur",
+        "date": "2025-05-02",
+        "description": "A short story and reflection on builders vs visionaries — and figuring out where you fall.",
+        "type": "thought",
+        "tags": [
+          "entrepreneurship",
+          "engineering",
+          "personality",
+          "startups",
+          "reflection"
+        ],
+        "image": "/content/blogs/engineer-entrepreneur/image.png"
+      },
+      {
+        "slug": "zsh-aliases-productivity",
+        "title": "My Handy Zsh Aliases for Faster Dev Work",
+        "description": "Simple, effective zsh aliases for npm, git, and terminal productivity.",
+        "date": "2025-04-29",
+        "type": "thought",
+        "image": "/content/blogs/zsh-aliases-productivity.png",
+        "highlight": "Cut typing. Save time. Get more done."
+      },
+      {
+        "slug": "must-watch",
+        "title": "Must Watch",
+        "description": "A collection of must-watch movies / series.",
+        "date": "2025-04-26",
+        "type": "thought",
+        "tags": ["movies", "series", "tech", "innovation", "philosophy"],
+        "image": "/content/blogs/must-watch.png",
+        "highlight": "Must-Watch Movies & Series for Tech, Innovation, and Philosophy Lovers"
+      },
+      {
+        "slug": "devs-ai-tools-to-use",
+        "title": "Devs AI Tools to Use",
+        "description": "A live list of AI tools that developers should bookmark and use.",
+        "date": "2025-04-26",
+        "type": "thought",
+        "image": "/content/blogs/ai-tools-to-use.png",
+        "highlight": "Keep this list handy. Will update as tools evolve."
+      },
+      {
+        "slug": "laws-of-ux",
+        "title": "Laws of UX",
+        "description": "A collection of the key maxims that designers must consider when building user interfaces.",
+        "date": "2024-10-02",
+        "type": "thought",
+        "image": "/content/blogs/laws-of-ux.jpg",
+        "highlight": "Rules that UX designers should consider when designing user interfaces."
+      },
+      {
+        "slug": "why-product-vision-should-trump-market-demands-a-contrarian-view",
+        "title": "Why Product Vision Should Trump Market Demands: A Contrarian View",
+        "date": "2024-07-15",
+        "type": "thought",
+        "link": "https://onlyoneaman.medium.com/why-product-vision-should-trump-market-demands-a-contrarian-view-1eb67812fadb",
+        "description": "In the dynamic world of product development, there’s a counterintuitive truth that many of us learn through experience: sometimes, less feedback is more. As a product engineer and ex-founder in the thick of development cycles, I’ve realised that while customer input is valuable, it shouldn’t be the sole driver of product development.",
+        "highlight": "People don’t know what they want until you show it to them.",
+        "image": "/content/blogs/why-product-vision-should-trump-market-demands-a-contrarian-view.jpeg"
+      },
+      {
+        "slug": "how-to-do-great-work",
+        "title": "How to Do Great Work: Insights from Paul Graham",
+        "date": "2024-07-14",
+        "type": "thought",
+        "description": "Paul Graham's insights on achieving significant accomplishments provide a structured yet flexible roadmap. By combining ambition, curiosity, hard work, and a keen eye for opportunities, anyone can elevate their work to new heights. Great work is not about following a rigid formula but about adapting these principles to your unique path and continuously striving for excellence.",
+        "highlight": "Ambition and curiosity are the cornerstones of great work.",
+        "image": "/content/blogs/how-to-do-great-work.png"
+      },
+      {
+        "slug": "template",
+        "title": "",
+        "date": "2023-06-28",
+        "hidden": true,
+        "type": "thought",
+        "link": "",
+        "description": "",
+        "highlight": "",
+        "image": ""
+      },
+      {
+        "slug": "my-second-post",
+        "title": "My Second Blog Post",
+        "date": "2023-06-28",
+        "hidden": true,
+        "type": "other"
+      },
+      {
+        "slug": "public-apis",
+        "title": "Public APIs",
+        "description": "Discover 10 essential public APIs for your tech projects, covering everything from global data and music to space exploration and more. Enhance your apps with APIs for countries, plants, NASA, Spotify, news, sunrise/sunset, Pokémon, movies, and pet facts. Ideal for developers seeking to add unique data and functionality.",
+        "date": "2023-06-27",
+        "image": "/content/blogs/public-apis.png",
+        "type": "tutorial"
+      },
+      {
+        "slug": "my-first-post",
+        "title": "My First Blog Post",
+        "description": "This is the content of my first blog post.",
+        "date": "2023-06-27",
+        "hidden": true,
+        "type": "other"
+      },
+      {
+        "slug": "essential-books-for-aspiring-world-class-programmers",
+        "title": "Essential Books for Aspiring World-Class Programmers",
+        "description": "To become a world-class programmer, building a strong foundation of knowledge and skills is crucial. Here are some essential books that can help you achieve that goal.",
+        "date": "2023-06-26",
+        "type": "tutorial",
+        "cardImage": "/content/blogs/books.png"
+      },
+      {
+        "slug": "build-support-bot-from-your-company-knowledge-base-with-python-openai",
+        "title": "A Support Bot based on your company's knowledge base and powered by ChatGPT",
+        "date": "2023-04-29",
+        "type": "tutorial",
+        "image": "/content/projects/support-bot.png",
+        "link": "https://betterprogramming.pub/building-a-support-bot-for-your-website-using-python-openai-3cde0a6b5e91"
+      },
+      {
+        "slug": "how-to-install-tig-stack-telegraf-influx-and-grafana-on-ubuntu",
+        "title": "How to Install TIG stack (Telegraf, Influx and Grafana) on Ubuntu",
+        "date": "2021-05-22",
+        "type": "tutorial",
+        "link": "https://onlyoneaman.medium.com/how-to-install-tig-stack-telegraf-influx-and-grafana-on-ubuntu-405755901ac2",
+        "image": "/content/blogs/how-to-install-tig-stack-telegraf-influx-and-grafana-on-ubuntu.png",
+        "highlight": "20K+ Views | 50+ Claps"
+      },
+      {
+        "slug": "creating-a-chrome-extension-with-react",
+        "title": "Creating a Chrome Extension with React",
+        "description": "A step-by-step guide to building a Chrome extension using React",
+        "highlight": "52K+ Views | 300+ Claps",
+        "date": "2021-02-05",
+        "type": "tutorial",
+        "image": "/content/blogs/creating-a-chrome-extension-with-react.png",
+        "link": "https://javascript.plainenglish.io/creating-a-chrome-extension-with-react-d92db20550cb?gi=00240dd2868e"
+      },
+      {
+        "slug": "working-with-cookies-and-creating-cookies-in-javascript",
+        "title": "Working With Cookies and Creating Cookies in JavaScript",
+        "date": "2020-11-01",
+        "type": "tutorial",
+        "link": "https://onlyoneaman.medium.com/integrate-facebook-pixel-and-fb-pixel-events-in-gatsbyjs-5ac10e0bf7d1",
+        "image": "/content/blogs/working-with-cookies-and-creating-cookies-in-javascript.png",
+        "highlight": "21K+ Views | 60+ Claps"
+      },
+      {
+        "slug": "session-management-across-subdomains-localstorage-vs-cookies",
+        "title": "Session Management across Subdomains: Localstorage vs Cookies",
+        "date": "2020-11-01",
+        "type": "tutorial",
+        "image": "/content/blogs/session-management-across-subdomains-localstorage-vs-cookies.png",
+        "highlight": "20K+ Views | 50+ Claps",
+        "link": "https://onlyoneaman.medium.com/session-management-across-subdomains-localstorage-vs-cookies-369d8d45adf8"
+      },
+      {
+        "slug": "integrate-facebook-pixel-and-fb-pixel-events-in-gatsbyjs",
+        "title": "Integrate Facebook Pixel and Fb Pixel Events in GatsbyJs",
+        "date": "2020-10-21",
+        "type": "tutorial",
+        "highlight": "3K+ Views",
+        "image": "/content/blogs/integrate-facebook-pixel-and-fb-pixel-events-in-gatsbyjs.png",
+        "link": "https://onlyoneaman.medium.com/integrate-facebook-pixel-and-fb-pixel-events-in-gatsbyjs-5ac10e0bf7d1"
+      },
+      {
+        "slug": "link-your-form-with-google-form-for-responses",
+        "title": "Link Your Form with Google Form for Responses",
+        "date": "2020-06-16",
+        "type": "tutorial",
+        "highlight": "5K+ Views",
+        "image": "/content/blogs/link-your-form-with-google-form-for-responses.png",
+        "link": "https://onlyoneaman.medium.com/link-your-form-with-google-form-for-responses-7a408dafb8f8"
+      },
+      {
+        "slug": "setting-up-cors-for-rails-api-app",
+        "title": "Setting up CORS for Rails API App",
+        "date": "2020-06-02",
+        "image": "/content/blogs/setting-up-cors-for-rails-api-app.png",
+        "link": "https://onlyoneaman.medium.com/setting-up-cors-for-rails-api-app-a76217297914",
+        "type": "tutorial"
+      }
+    ]
+  },
+  "__N_SSG": true
+}

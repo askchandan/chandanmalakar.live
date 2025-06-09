@@ -1,0 +1,13 @@
+{
+  "pageProps": {
+    "post": {
+      "title": "Chatbot",
+      "description": "chat",
+      "slug": "simple-chatbot",
+      "image": "/content/apps/chatbot.png",
+      "tags": ["chatbot"],
+      "componentKey": "Chatbot"
+    }
+  },
+  "__N_SSG": true
+}

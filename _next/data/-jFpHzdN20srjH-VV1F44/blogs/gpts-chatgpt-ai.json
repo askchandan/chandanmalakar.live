@@ -1,0 +1,16 @@
+{
+  "pageProps": {
+    "post": {
+      "slug": "gpts-chatgpt-ai",
+      "content": "\nGPTs are quickly emerging as the \"micro-apps\" of the AI world—small, focused tools built on top of ChatGPT. From daily planners to writing coaches and custom game masters, there’s a GPT for nearly everything.\n\n### Why GPTs Are Taking Off\n\n- **No-code creation**: Anyone can build one inside ChatGPT’s interface.  \n- **Hyper-personalized experiences**: GPTs answer specific needs, not just general queries.  \n- **Plug-and-play integration**: Users can instantly explore and use GPTs with ChatGPT Pro.\n\nThe result? A growing economy of bite-sized AI experiences.\n\n---\n\n### GPT Marketplaces You Should Know\n\nWhile OpenAI showcases some GPTs within ChatGPT, community-led directories have also popped up:\n\n- **[GPTStore.ai](https://gptstore.ai/)**\n- **[AllGPTs.co](https://allgpts.co/)**\n- **[ExploreGPT.ai](https://exploregpt.ai/submit-gpts)**\n\nThese sites function like app stores—curating the best tools, making discovery easier, and helping GPTs get visibility.\n\n---\n\n### Want to Get Featured in ChatGPT?\n\nOpenAI now lets creators submit GPTs for official featuring inside ChatGPT.\n\n👉 [Submit your GPT here](https://openai.com/form/feature-gpt/)  \nGetting listed means millions of users might discover your creation.\n\n---\n\n#### TL;DR\n\n- GPTs are AI-native microapps that live inside ChatGPT.  \n- Anyone can build and share one.  \n- Community sites like GPTStore, AllGPTs, and ExploreGPT are the new app directories.  \n- OpenAI lets you apply for featured placement directly.\n\n---\n\n#### 💬 We'd Love Your Feedback\n\nHave you tried building a GPT?  \nUsing one you love?\n\nDrop a DM on [X](https://x.com/onlyoneaman)\n\n---\n",
+      "title": "ChatGPT GPTs: The Rise of AI Micro-Apps",
+      "description": "Discover how GPTs are becoming the building blocks of a new AI-native app ecosystem, where to list them, and how to get featured.",
+      "date": "2025-05-04",
+      "type": "resource",
+      "tags": ["ChatGPT", "GPTs", "AI apps", "microapps", "OpenAI"],
+      "image": "/content/blogs/chatgpt-gpts.png",
+      "highlight": "GPTs are the new plugins—lightweight, personalized AI tools you can create and share instantly."
+    }
+  },
+  "__N_SSG": true
+}

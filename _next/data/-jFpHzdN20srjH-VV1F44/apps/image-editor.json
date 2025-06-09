@@ -1,0 +1,13 @@
+{
+  "pageProps": {
+    "post": {
+      "title": "Image Editor",
+      "description": "Edit images with AI",
+      "image": "/content/apps/image-editor.png",
+      "slug": "image-editor",
+      "tags": ["image", "editor"],
+      "componentKey": "ImageEditor"
+    }
+  },
+  "__N_SSG": true
+}

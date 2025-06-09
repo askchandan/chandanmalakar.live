@@ -1,0 +1,13 @@
+{
+  "pageProps": {
+    "post": {
+      "title": "Caption Generator",
+      "description": "Generate captions with AI",
+      "image": "/content/apps/caption-generator.png",
+      "slug": "caption-generator",
+      "tags": ["caption", "generator"],
+      "componentKey": "CaptionGenerator"
+    }
+  },
+  "__N_SSG": true
+}
