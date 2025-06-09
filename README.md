@@ -50,7 +50,7 @@ yarn dev
 ## 📧 Contact
 
 **Chandan Malakar**
-- Email: chandan@chandanmalakar.live
+- Email: chandanmalakar7549@gmail.com
 - LinkedIn: [chandanmalakar](https://linkedin.com/in/chandanmalakar)
 - Twitter: [@chandan6209](https://twitter.com/chandan6209)
 - GitHub: [askchandan](https://github.com/askchandan)
